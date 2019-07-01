@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input placeholder="Enter text" id="data">
+<button onclick="WriteFile()">WRITE</button>
+<script>
+    import fs from 'fs.*';
+
+    function WriteFile() {
+        var Data=document.getElementById("data").value;
+        fs.writeFile('matter.txt',Data,(err)=>{
+            if(err) throw err;
+            console.log("file is written")
+        }).then(()=>{
+            res.send("data written")
+        })
+    }
+</script>
+</body>
+</html>
