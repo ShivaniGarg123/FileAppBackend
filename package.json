@@ -1,0 +1,30 @@
+{
+  "name": "untitled103",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "prompt": "^1.0.0",
+    "readline-sync": "^1.4.9",
+    "replace-in-file": "^4.1.0",
+    "replace-string": "^3.0.0",
+    "string-replace-all": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivaniGarg123/FileAppBackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShivaniGarg123/FileAppBackend/issues"
+  },
+  "homepage": "https://github.com/ShivaniGarg123/FileAppBackend#readme"
+}
